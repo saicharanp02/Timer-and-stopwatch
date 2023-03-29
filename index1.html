@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Timer and stopwatch</title>
+	<link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+	
+	<div  id="section1">
+		<div class="container">
+			<h1 style="color:goldenrod; 	text-align: center; font-size:50px;">Timer </h1>
+			<div class="timer">
+			  <label for="hours">Hours:</label>
+			  <input type="number" id="hours" min="0">
+			  <label for="minutes">Minutes:</label>
+			  <input type="number" id="minutes" min="0" max="59">
+			  <label for="seconds">Seconds:</label>
+			  <input type="number" id="seconds" min="0" max="59">
+			  <button id="start">Start</button>
+			  <button id="stop">Stop</button>
+			</div>
+			<div class="display">
+			  <span id="display-hours">00</span> :
+			  <span id="display-minutes">00</span> :
+			  <span id="display-seconds">00</span>
+			</div>
+		  </div>
+	
+	</div>
+	<div id="section2">
+		<div class="container1">
+			<h1 style="color:#ffffff; 	text-align: center; font-size:xx-large;">Stop Watch</h1>
+			<div id="time">
+				<span class="digit" id="hr">
+				00</span>
+				<span class="txt">Hr</span>
+				<span class="digit" id="min">
+				00</span>
+				<span class="txt">Min</span>
+				<span class="digit" id="sec">
+				00</span>
+				<span class="txt">Sec</span>
+				<span class="digit" id="count">
+				00</span>
+			</div>
+			<div id="buttons">
+				<button class="btn" id="start1">
+				Start</button>
+				<button class="btn" id="stop1">
+				Stop</button>
+				<button class="btn" id="reset1">
+				Reset</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script1.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
